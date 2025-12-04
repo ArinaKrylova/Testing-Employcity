@@ -20,5 +20,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/my-app/'
+  base: "/Testing-Employcity/",
 })
