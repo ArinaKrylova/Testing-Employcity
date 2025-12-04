@@ -1,0 +1,70 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue-primary: #3e9cdc;
+  --color-blue-link: #43abf0;
+  --color-blue-dark: #286690;
+  --color-grey-dark: #6f6d7b;
+  --color-grey-light: #bbbbbb;
+  --color-blue-bg: #272733;
+  --color-blue-dark2: #3D4050;
+  --color-bg: #10101de5;
+
+  --space-15: 15px;
+  --space-20: 20px;
+  --space-30: 30px;
+  --space-40: 40px;
+  --space-80: 80px;
+
+  --font-primary: "Lato", sans-serif;
+
+  --fs-h1: 3rem; /* 48px */
+  --fs-h2: 2.5rem; /* 40px */
+  --fs-20: 1.25rem; /* 20px */
+  --fs-18: 1.125rem; /* 18px */
+  --fs-16: 1rem; /* 16px */
+  --fs-15: 0.9375rem; /* 15px */
+  --fs-13: 0.8125rem; /* 13px */
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* H1 */
+  --font-h1-regular: var(--fw-regular) var(--fs-h1) var(--font-primary);
+  --font-h1-bold: var(--fw-bold) var(--fs-h1) var(--font-primary);
+
+  /* H2 */
+  --font-h2-regular: var(--fw-regular) var(--fs-h2) var(--font-primary);
+  --font-h2-bold: var(--fw-bold) var(--fs-h2) var(--font-primary);
+
+  /* 20px */
+  --font-20-regular: var(--fw-regular) var(--fs-20) var(--font-primary);
+  --font-20-bold: var(--fw-bold) var(--fs-20) var(--font-primary);
+
+  /* 18px */
+  --font-18-regular: var(--fw-regular) var(--fs-18) var(--font-primary);
+  --font-18-bold: var(--fw-bold) var(--fs-18) var(--font-primary);
+
+  /* 16px */
+  --font-16-regular: var(--fw-regular) var(--fs-16) var(--font-primary);
+  --font-16-bold: var(--fw-bold) var(--fs-16) var(--font-primary);
+
+  /* 15px */
+  --font-15-regular: var(--fw-regular) var(--fs-15) var(--font-primary);
+  --font-15-bold: var(--fw-bold) var(--fs-15) var(--font-primary);
+
+  /* 13px */
+  --font-13-regular: var(--fw-regular) var(--fs-13) var(--font-primary);
+  --font-13-bold: var(--fw-bold) var(--fs-13) var(--font-primary);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-h1: 2.25rem; /* 36px */
+    --fs-h2: 1.875rem; /* 30px */
+    --fs-20: 1.125rem; /* 18px */
+    --fs-18: 1rem; /* 16px */
+    --fs-16: 0.9375rem; /* 15px */
+    --fs-15: 0.875rem; /* 14px */
+  }
+}

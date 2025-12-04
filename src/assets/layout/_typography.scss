@@ -1,0 +1,26 @@
+@import "./mixins";
+@import "./variables";
+
+h1 {
+  font: var(--font-h1-bold);
+}
+
+h2 {
+  font: var(--font-h2-bold);
+}
+
+h3 {
+  font: var(--font-20-regular);
+}
+
+h4 {
+  font: var(--font-18-regular);
+}
+
+h5 {
+  font: var(--font-16-regular);
+}
+
+h6 {
+  font: var(--font-15-regular);
+}
