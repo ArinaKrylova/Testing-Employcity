@@ -19,5 +19,6 @@ export default defineConfig({
         additionalData: `@import "@/assets/layout/mixins.scss";`
       }
     }
-  }
+  },
+  base: '/my-app/'
 })
